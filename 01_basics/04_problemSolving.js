@@ -20,3 +20,16 @@ function uniqueCountOfFruits() {
 }
 
 uniqueCountOfFruits();
+
+function g() {
+  function h() {
+    var a = 1;
+    var b = 2;
+  }
+  h();
+  console.log(a, b);
+}
+
+g();
+
+console.log(a, b);
