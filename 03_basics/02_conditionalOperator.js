@@ -3,4 +3,5 @@
 console.log(9 || 10)
 console.log(9 ?? 10);
 
-if (1 || -0) console.log(true)
+if (1 ?? -0) console.log(true);
+if (1 || -0) console.log(true);
