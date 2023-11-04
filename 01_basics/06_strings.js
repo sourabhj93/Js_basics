@@ -1,15 +1,20 @@
 /* Creating variable with string value */
 
-const string = 'hello'
+const string = "hello";
 
-console.log(string[3])
+console.log(string[3]);     // l
 
-const hello = new String('Hello')
-console.log(hello[4]);
+const newObject = new String("hello");
+console.log(newObject);      // [String: 'hello']
+console.log(newObject[5]);      // undefined
 
 /* all string method don't update the variable using it */
 
-const z = string.toLocaleUpperCase()
+const z = string.toLocaleUpperCase('en-Ar');
+console.log(z.toUpperCase());
 
-console.log(string)
+console.log(string);
 console.log(z);
+
+const names = "Sourabh"
+console.log("0101".toString());

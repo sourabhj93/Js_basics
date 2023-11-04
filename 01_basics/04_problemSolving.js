@@ -27,9 +27,9 @@ function g() {
     var b = 2;
   }
   h();
-  console.log(a, b);
+  console.log(a, b); // error
 }
 
 g();
 
-console.log(a, b);
+console.log(a, b); // error
